@@ -2,7 +2,8 @@ body {
   background-color: rgb(243, 200, 236);
   background-image: url ("images/contact.jpg");
   outline-style: solid;
-  outline-width: 10em;
+  outline-width: 5px;
+  inline-size: 800px;
 }
 label {
   font-size: larger;
