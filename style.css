@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(243, 200, 236);
+  background-image: url ("images/contact.jpg");
+}
+label {
+  font-size: larger;
+  font-style: bold;
+}
