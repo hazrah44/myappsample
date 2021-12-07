@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(243, 200, 236);
+  background-image: url ("images/contact.jpg");
+  outline-style: solid;
+  outline-width: 5px;
+  inline-size: 800px;
+}
+label {
+  font-size: larger;
+  font-style: bold;
+  text-align: center;
+}
+div {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+input {
+  text-align: center;
+}
+p {
+  outline-color: purple;
+}
+p.solid {
+  outline-style: solid;
+}
