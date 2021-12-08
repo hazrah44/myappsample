@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./src/style.css" />
-    <script src="./src/index.js" defer></script>
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>HTML Code of a Web Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <script dir1="./dir1/app1.js" defer></script>
     <style></style>
-  </head>
-  <body>
-    <main>
-      <div class="container">
-        <div id="card"></div>
+    <body>
+
+      <div id="formWrapper">
+        <h1 id="titled">Contact Us</h1>
+        <form
+          name="contactForm"
+          id="contactForm"
+          method='POST'
+          action=https://bucs601.com/submit.php
+        >
+          <div id="rowA">
+            <label>First name (required):</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              required
+              autofocus
+            />
+          </div>
+          <div id="rowB">
+            <label>Last name (required):</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              required
+            />
+            <br />
+            <input type="checkbox" id="female" name="female" />
+            <label for="female">female</label>
+            <br />
+            <input type="checkbox" id="male" name="male" />
+            <label for="male">male</label>
+          </div>
+          <div id="rowC">
+            <label>Facilitator First name (required):</label>
+            <input
+              type="text"
+              name="facilitator"
+              id="facilitator"
+              required
+            />
+            <br />
+            <br />
+            <fieldset>
+              <legend>Choose your interests in learning Coding</legend>
+              <div>
+                <input type="radio" id="HTML" name="interest" value="coding" />
+                <label for="coding">HTML5</label>
+              </div>
+              <div>
+                <input type="radio" id="css" name="interest" value="css" />
+                <label for="css">CSS</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="javascript"
+                  name="interest"
+                  value="javascript"
+                />
+                <label for="javascript">javaScript</label>
+              </div>
+            </fieldset>
+            <br />
+          </div>
+          <div id="rowD">
+            <input type="submit" name="submit" value="Submit" />
+          </div>
+        </form>
       </div>
-    </main>
-  </body>
+    </body>
+  </head>
 </html>
