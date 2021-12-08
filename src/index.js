@@ -2,7 +2,6 @@
 //Assignment 5 - Part 2
 async function getDegrees() {
     // fetch the url
-    
     await fetch(url)
       //get your data here, and check for the response status. If it's not 200, throw an error
       .then((response) => response.json())
@@ -13,4 +12,4 @@ async function getDegrees() {
       );
         }
   
-  getDegrees("./dir1/degrees.json");
+  getDegrees("./src/degrees.json");
